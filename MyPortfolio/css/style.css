@@ -1,0 +1,215 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background: #e5e5e5;
+	font-size: 14px;
+	color: #000000;
+}
+
+.main-container {
+	display: flex;
+	font-display: row;
+	width: 1280px;
+	height: auto;
+	background: #fff;
+	margin: 40px auto;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.sidebar-section {
+	background: #1e2939;
+	color: #fff;
+	padding: 40px 0;
+	width: 370px;
+	height: auto;
+}
+.sidebar-section-photo img {
+	width: 370px;
+	height: auto;
+}
+.indent {
+	margin: 50px 40px;
+}
+.sidebar-title {
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0 0 8px 0;
+}
+.contacts-type {
+	font-weight: bold;
+	margin-right: 10px;
+}
+.contacts-link {
+	color: #ffffff;
+	opacity: 0.5;
+}
+.indent > p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.indent > ul {
+	font-size: 14px;
+	line-height: 24px;
+	color: #fb6d3a;
+	margin-left: 18px;
+}
+.indent > ul > li > span {
+	color: #fff;
+}
+
+.info-section {
+	margin: 100px 215px 100px 90px;
+}
+
+.my-job {
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.my-name {
+	font-weight: bold;
+	font-size: 45px;
+	padding-bottom: 25px;
+}
+.my-info {
+	line-height: 24px;
+	color: #595959;
+	padding-bottom: 40px;
+	width: 400px;
+}
+.experience-titel {
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.name-work {
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.work-items {
+	line-height: 24px;
+	color: #595959;
+	padding-bottom: 15px;
+	padding-left: 18px;
+}
+.project-list {
+	font-weight: bold;
+	line-height: 24px;
+	padding-left: 18px;
+	padding-bottom: 50px;
+}
+
+.project-list > li > a {
+	padding-left: 10px;
+	color: #595959;
+}
+.project-list > li > b > span {
+	color: #595959;
+}
+.item-date-place {
+	font-size: 12px;
+	color: #a8a8a8;
+	padding-bottom: 10px;
+}
+.experience-education {
+	padding-top: 25px;
+}
+.orange {
+	font-weight: bold;
+	font-size: 16px;
+	color: #fb6d3a;
+	padding-bottom: 10px;
+}
+.education {
+	padding-bottom: 10px;
+}
+.education-job {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.bold-slesh {
+	font-weight: bold;
+	color: #000000;
+	padding: 0 10px;
+}
